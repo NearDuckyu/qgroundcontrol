@@ -1755,19 +1755,19 @@ void Vehicle::sendMessageMultiple(mavlink_message_t message)
 void Vehicle::_missionManagerError(int errorCode, const QString& errorMsg)
 {
     Q_UNUSED(errorCode);
-    qgcApp()->showAppMessage(tr("Mission transfer failed. Error: %1").arg(errorMsg));
+    // qgcApp()->showAppMessage(tr("Mission transfer failed. Error: %1").arg(errorMsg));
 }
 
 void Vehicle::_geoFenceManagerError(int errorCode, const QString& errorMsg)
 {
     Q_UNUSED(errorCode);
-    qgcApp()->showAppMessage(tr("GeoFence transfer failed. Error: %1").arg(errorMsg));
+    // qgcApp()->showAppMessage(tr("GeoFence transfer failed. Error: %1").arg(errorMsg));
 }
 
 void Vehicle::_rallyPointManagerError(int errorCode, const QString& errorMsg)
 {
     Q_UNUSED(errorCode);
-    qgcApp()->showAppMessage(tr("Rally Point transfer failed. Error: %1").arg(errorMsg));
+    // qgcApp()->showAppMessage(tr("Rally Point transfer failed. Error: %1").arg(errorMsg));
 }
 
 void Vehicle::_clearCameraTriggerPoints()

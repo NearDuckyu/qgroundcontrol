@@ -451,7 +451,7 @@ void QGCApplication::_missingParamsDisplay(void)
         }
         _missingParams.clear();
 
-        showAppMessage(tr("Parameters are missing from firmware. You may be running a version of firmware which is not fully supported or your firmware has a bug in it. Missing params: %1").arg(params));
+        // showAppMessage(tr("Parameters are missing from firmware. You may be running a version of firmware which is not fully supported or your firmware has a bug in it. Missing params: %1").arg(params));
     }
 }
 
