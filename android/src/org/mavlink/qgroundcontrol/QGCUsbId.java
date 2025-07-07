@@ -64,6 +64,9 @@ public final class QGCUsbId {
     public static final int DEVICE_VRCORE_V10 = 0x1910;
     public static final int DEVICE_VRUBRAIN_V51 = 0x1351;
 
+    public static final int VENDOR_WITMOTION = 0x1a86;
+    public static final int DEVICE_WITMOTION_UM982N = 0x7523;
+
     private QGCUsbId()
     {
         throw new IllegalAccessError("Non-instantiable class");
